@@ -1,3 +1,6 @@
+import nltk
+nltk.download('stopwords')
+
 from nltk.corpus import wordnet
 
 import demoji
