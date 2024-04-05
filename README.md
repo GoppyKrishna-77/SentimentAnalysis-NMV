@@ -9,13 +9,17 @@ ___
 
 **Dataset :** https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
 
-**Documentation :** https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/Project_Documentation.md
+**Documentation :** https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/blob/master/Project_PPT.pdf
 
-**Source Code :** https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/AI_Phase5.ipynb 
+**Source Code :** https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/blob/master/NMV.ipynb
 
-**Predicted Dataset :** https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/Tweets_Input.csv
+**Predicted Dataset :** https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/blob/master/Tweets_Output.csv
 
-**Dashboard Code :** https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/dash.py
+**Dashboard Code :** https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/blob/master/dash.py
+
+**Google Colab :** https://colab.research.google.com/drive/1a2t8t28kTfpWpz6RWm-dDx9yfIzjclq1?usp=sharing
+
+**StreamLit Deployment :** https://airlines-sentiment-analysis.streamlit.app
 
 ___
 
@@ -52,7 +56,6 @@ This information helps the Companies to improve their products and services by o
 
 **Model Training**
 
-- **Sklearn** ```pip install scikit-learn```
 - **PyTorch** ```pip install torch```
 - **Transfomers** ```pip install transformers```
 
@@ -60,24 +63,25 @@ This information helps the Companies to improve their products and services by o
 
 - **Streamlit** ```pip install streamlit```
 - **Vega-Altair** ```pip install altair```
-- **Ipython** ```pip install ipython```
 
 ### **How to Execute?**
 
-1. Install the required Dependancies and Dataset.
-2. Execute the [Source Code](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) file (AI_Phase5/AI_Phase5.ipynb) to Pre-process the data, Train Data Models and Generate a Input dataset for Visualizing in the Dashboard.
-3. Execute the [Dashboard Code](https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/dash.py) file (AI_Phase5/dash.py), using the following:
+1. Install the required Dependencies and Dataset.
+2. Execute the [Source Code](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) file (NMV.ipynb) to Pre-process the data, Train Data Models and Generate an Input dataset for Visualizing in the Dashboard.
+3. Execute the [Dashboard Code](https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/blob/main/AI_Phase5/dash.py](https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/blob/master/dash.py) file (dash.py), using the following:
    ```streamlit run dash.py```
 to create a Dashboard Using Streamlit.
 
 ### **Key Features**
 
-- **Context Based Stop Words Identification** - Performed by taking Top-25 frequently used words in all the Sentiment Categories.
-- **Negation Handling** - Identifying and Reversing negation statements in the text.
-- **Robust Model** - Used a RoBERTa Deep-Learning Model for higher prediction accuracy.
-- **Interactive Dashboard** - Ability to target specific a Company in the Dashboard.
+- **Context-Based Stop Words Identification:** Identifies and eliminates the top 25 frequently used words in all sentiment categories to enhance analysis relevance.
+- **Emojis and Emoticons Understanding:** Analyzes emojis and emoticons to capture nuanced sentiment expressions and improve analysis accuracy.
+- **Negation Handling:** Identifies and reverses negation statements in the text to ensure accurate sentiment classification.
+- **Robust Model:** Utilize the RoBERTa Deep-Learning Model for higher prediction accuracy.
+- **Interactive Dashboard:** Enable targeting specific companies in the dashboard for focused analysis.
 
 ### **Dashboard**
 
-![dashboard](https://github.com/GoppyKrishna-77/AI_8138_CSE_TEAM9/assets/83293163/ff5fa64c-c3a0-4c0f-9ab7-965b8b42212d)
+![Output1](https://github.com/GoppyKrishna-77/SentimentAnalysis-NMV/assets/83293163/e638ec65-d228-42c0-bf67-fc93126f7ae2)
+
 
